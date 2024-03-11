@@ -1,0 +1,121 @@
+.card {
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 200px;
+  display: flex;
+}
+
+.card__image {
+  margin-top: 32px;
+  width: 160px;
+  height: 134px;
+  margin-inline: 19px;
+}
+
+.card__info {
+  margin-inline: 16px;
+  margin-top: 40px;
+}
+
+.card__name {
+  color: #060b35;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__review {
+  text-align: right;
+  color: #060b35;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+}
+
+.card__price {
+  justify-content: space-between;
+  margin-top: 24px;
+  display: flex;
+}
+
+.card__price-text {
+  text-align: left;
+  color: #616070;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__price-sum {
+  text-align: right;
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__buy-link {
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-block: 16px;
+  margin-inline: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__buy-link:hover {
+  color: #00acdc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}
+
+.stars__star:first-child {
+  margin: 0;
+}
+
+.stars--1 :nth-child(-n+1), .stars--2 :nth-child(-n+2), .stars--3 :nth-child(-n+3), .stars--4 :nth-child(-n+4), .stars--5 :nth-child(-n+5) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
